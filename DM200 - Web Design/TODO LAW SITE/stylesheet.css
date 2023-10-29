@@ -1,0 +1,29 @@
+body{
+   font-family: cursive;
+}
+
+nav, section{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#banner{
+   width: 100%;
+}
+
+section div{
+   padding: 25px;
+}
+
+h1, h2, p{
+   margin: 0;
+   font-weight: normal;
+}
+
+q{
+   font-size: x-large;
+   display: block;
+   min-width: 350px;
+   padding: 25px;
+}
