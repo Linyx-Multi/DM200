@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Minou";
+    src:
+     url("Minou_DEMO.otf") format("opentype"); 
+}
+/* I've organized this somewhat okay, Nav > Body > Sections > ETC */
+nav{
+    width:100%;
+    padding:15px;
+    display: flex;
+    background-color: rgb(37, 35, 35);
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    height: 75px;
+    font-family: "Minou";
+}
+
+nav div a:hover{
+    color:grey;
+}
+
+nav img{
+    filter:invert()
+}
+
+nav div a{
+
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    flex: 5;
+}
+
+body{
+    margin: 0;
+}
+
+#SectA{
+    width: 100%;
+    clear: both;
+    font-family: "Minou";
+}
+
+#SectA img{
+    width: 30%;
+    float: left;
+    margin-bottom: 5%;
+    margin: 15px;
+}
+
+#SectA div{
+    padding: 10px;
+
+}
+
+#SectB{
+    width: 100%;
+    clear: both;
+    font-family: "Minou";
+    margin: 5%;
+}
+
+#SectB img{
+    width: 10%;
+    float: left;
+    margin: 10px;
+}
+
+#SectB div{
+    padding: 10px;
+
+}
+
+#SectC{
+    height: 33px;
+    font-family: "Minou";
+    justify-content: center;
+    display: flex;
+    clear: both;
+}
+
+#SectC div a{
+    color: rgb(37, 35, 35);
+    text-decoration: none;
+    width: 100%;
+    flex: 5;
+    padding:30px;
+}
+
+#SectD{
+    font-family: "Minou";
+}
+footer{
+    justify-content: center;
+    display: flex;
+}
+
+hr{
+    border: 1;
+    border-color: black;
+    border-radius: 10px;
+    clear: both;
+}
+
+.flex{
+    display: flex;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.button{
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+}
+
+.button:active{
+    background-color: gold;
+}
