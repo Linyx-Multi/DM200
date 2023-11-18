@@ -3,7 +3,7 @@
     src:
      url("Minou_DEMO.otf") format("opentype"); 
 }
-
+/* I've organized this somewhat okay, Nav > Body > Sections > ETC */
 nav{
     width:100%;
     padding:15px;
@@ -39,12 +39,14 @@ body{
 #SectA{
     width: 100%;
     clear: both;
+    font-family: "Minou";
 }
 
 #SectA img{
     width: 30%;
     float: left;
-    margin: 10px;
+    margin-bottom: 5%;
+    margin: 15px;
 }
 
 #SectA div{
@@ -55,6 +57,8 @@ body{
 #SectB{
     width: 100%;
     clear: both;
+    font-family: "Minou";
+    margin: 5%;
 }
 
 #SectB img{
@@ -66,6 +70,41 @@ body{
 #SectB div{
     padding: 10px;
 
+}
+
+#SectC{
+    height: 33px;
+    font-family: "Minou";
+    justify-content: center;
+    display: flex;
+    clear: both;
+}
+
+#SectC div a{
+    color: rgb(37, 35, 35);
+    text-decoration: none;
+    width: 100%;
+    flex: 5;
+    padding:30px;
+}
+
+#SectD{
+    font-family: "Minou";
+}
+footer{
+    justify-content: center;
+    display: flex;
+}
+
+hr{
+    border: 1;
+    border-color: black;
+    border-radius: 10px;
+    clear: both;
+}
+
+.flex{
+    display: flex;
 }
 
 *{
